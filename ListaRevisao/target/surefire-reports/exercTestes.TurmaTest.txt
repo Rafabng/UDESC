@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: exercTestes.TurmaTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! -- in exercTestes.TurmaTest
+exercTestes.TurmaTest.deveMostrarAlunosTela -- Time elapsed: 0.022 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Matricula: 1, Nome: Rafael, Cpf: 22222222222, Idade: 21
+Matricula: 2, Nome: Bruno, Cpf: 33333333333, Idade: 24> but was: <Matricula: 1, Nome: Rafael, Cpf: 22222222222, Idade: 21
+Matricula: 1, Nome: Rafael, Cpf: 22222222222, Idade: 21>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at exercTestes.TurmaTest.deveMostrarAlunosTela(TurmaTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

@@ -1,0 +1,4 @@
+br\udesc\prog2\sistemaPaciente\app\Sistema.class
+br\udesc\prog2\sistemaPaciente\controller\PacienteController.class
+br\udesc\prog2\sistemaPaciente\model\Paciente.class
+br\udesc\prog2\sistemaPaciente\view\PacienteView.class

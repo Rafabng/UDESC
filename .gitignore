@@ -1,4 +1,18 @@
-target/
+# IDEs
 .idea/
 .vscode/
+
+# Java
 *.class
+target/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
